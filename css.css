@@ -1,0 +1,49 @@
+@font-face{
+    font-family: Roboto;
+    src: url(Font/Roboto-Regular.ttf)
+    
+}
+
+body{
+    background-color: rgb(242, 242, 247);
+    color: white;
+    text-align: center;
+    
+}
+.screan{
+    width: 80%;
+    color: rgb(249, 249, 251);
+    background-color: rgb(1, 1, 33);
+    height: 500px;
+    align-items: center;
+
+    
+}
+#header{
+    padding: 100px;
+    margin-top: 20px;
+}
+
+
+button{
+    width: auto;
+    height: auto;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(54, 86, 243);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(222, 222, 240);
+}
+button:active{
+    background-color: rgb(151, 151, 210);
+
+}
+.action{
+    background-color: rgb(138, 138, 4);
+}
